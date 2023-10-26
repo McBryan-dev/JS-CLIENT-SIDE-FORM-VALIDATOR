@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 370px;
+    height: 520px;
+    background: whitesmoke;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem auto 3rem auto;
+    border-radius: 10px;
+}
+
+h1.form-title {
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: rgb(230, 224, 224);
+    border-radius: 5px;
+    
+}
+
+form {
+    font-size: 1rem;
+}
+
+/* #name {
+    
+} */
+
+#name label {
+    margin-right: 10.5rem;
+    font-size: 1.5rem;
+}
+
+#name-input {
+    height: 1.4rem;
+    width: 17rem;
+    font-weight: bold;
+    color: black;
+    border: .5px solid rgb(223, 216, 216);
+}
+
+#nameNull {
+    color: red;
+    font-size: 12px;
+}
+
+#name-input.error {
+    border: 2px solid red;
+}
+
+#name-input.success {
+    border: 2px solid rgb(0, 255, 0);
+}
+
+/* email */
+#email {
+    margin-top: -10px;
+}
+
+#email label {
+    margin-right: 13.5rem;
+    font-size: 1.5rem;
+}
+
+#email input {
+    height: 1.5rem;
+    width: 17rem;
+    font-weight: bold;
+    color: black;
+    border: .5px solid rgb(223, 216, 216);
+}
+
+#emailNull {
+    color: red;
+    font-size: 12px;
+}
+
+#email-input.error {
+    border: 2px solid red;
+}
+
+#email-input.success {
+    border: 2px solid rgb(0, 255, 0);
+}
+
+#password {
+    margin-top: 10px;
+}
+
+#password label {
+    margin-right: 10.5rem;
+    font-size: 1.5rem;
+}
+
+#password-input {
+    height: 1.5rem;
+    width: 17rem;
+    font-weight: bold;
+    color: black;
+    border: .5px solid rgb(223, 216, 216);
+}
+
+#passwordNull {
+    color: red;
+    font-size: 12px;
+}
+
+#password-input.error {
+    border: 2px solid red;
+}
+
+#password-input.success {
+    border: 2px solid rgb(0, 255, 0);
+}
+
+#password-check {
+    margin-top: 10px;
+}
+
+#password-check label {
+    margin-right: 5.7rem;
+    font-size: 1.5rem;
+}
+
+#password-check-input {
+    height: 1.5rem;
+    width: 17rem;
+    font-weight: bold;
+    color: black;
+    border: .5px solid rgb(223, 216, 216);
+}
+
+#passwordcheckNull {
+    color: red;
+    font-size: 12px;
+}
+
+#password-check-input.error {
+    border: 2px solid red;
+}
+
+#password-check-input.success {
+    border: 2px solid rgb(0, 255, 0);
+}
+
+.output {
+    margin: 8px 0 0 0 ;
+    padding: 0;
+    height: 5px;
+}
+
+.btn.btn-info {
+    margin-top: 2rem;
+    height: 1.7rem;
+    width: 16rem;
+    font-size: 1rem;
+    background: aqua;
+    color: black;
+    border: 1px solid rgb(0, 230, 230);
+    border-radius: 5px;
+    cursor: pointer;
+} 

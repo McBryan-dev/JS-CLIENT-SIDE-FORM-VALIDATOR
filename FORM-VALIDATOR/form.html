@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FORM VALIDATOR</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+    <body>
+        <div class="container">
+
+            <h1 class="form-title">Form Validator</h1>
+        
+            <form id="form">
+        
+                <div id="name">
+                    <label>Username</label>
+                    <br>
+                    <input type="text" placeholder="Enter Username" id="name-input">
+                
+                    <h3 id="nameNull" class="output"> </h3>
+                </div>
+                    <br>
+                <div id="email">
+                    <label>Email</label>
+                    <br>
+                    <input type="email" placeholder="Enter Email" id="email-input">
+                    
+                    <h3 id="emailNull" class="output"> </h3>
+                </div>
+                    <br>
+                <div id="password">
+                    <label>Password</label>
+                    <br>
+                    <input type="password" placeholder="Enter Password" id="password-input">
+                    
+                    <h3 id="passwordNull" class="output"> </h3>
+                </div>
+                    <br>
+                <div id="password-check">
+                    <label>Password Check</label>
+                    <br>
+                    <input type="password" placeholder="Re-enter Password" id="password-check-input">
+                    
+                    <h3 id="passwordcheckNull" class="output"> </h3>
+                </div>
+        
+                <button type="submit" class="btn btn-info" id="btn">Submit</button>
+        
+            </form>
+        </div>
+    </body>
+
+    <script src="form.js"></script>
+
+</html>
